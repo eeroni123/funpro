@@ -4,7 +4,7 @@ const f = function () {
     return function (x) {
 		return x+1;
 	 }
-	}(); // Huomaa funktion kutsu! // testi
+	}(); // Huomaa funktion kutsu! //
 
 let tulos = f(3);
 

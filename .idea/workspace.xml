@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd96defa-3c6d-404a-b0ca-c769c08088ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v1/02/anonyymi.js" beforeDir="false" afterPath="$PROJECT_DIR$/v1/02/anonyymi.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,20 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v1/01/teht5.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v1/02/anonyymi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -181,7 +171,7 @@
       <workItem from="1552898406865" duration="6572000" />
       <workItem from="1552979468089" duration="427000" />
       <workItem from="1552980015543" duration="125000" />
-      <workItem from="1552986273965" duration="949000" />
+      <workItem from="1552986273965" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1552980043411</created>
@@ -194,13 +184,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8073000" />
+    <option name="totallyTimeSpent" value="8877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +201,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -262,17 +251,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/v1/02/anonyymi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/v1/01/teht5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v1/02/anonyymi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
