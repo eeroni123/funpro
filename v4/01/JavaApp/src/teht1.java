@@ -1,24 +1,18 @@
+import org.junit.Test;
 import java.util.*;
-
 import static java.util.stream.Collectors.toList;
+import static org.junit.Assert.assertEquals;
 
 public class teht1 {
 
-
-
     public static void main(String[] args) {
-        List<Point> points = Arrays.asList(new Point(12, 2), null);
-        points = Point.moveAllPointsRightBy(points,10);
-        points.stream()
-                .map(x -> x.getX())
-                .forEach(System.out::println);
-
+        List<Point> points = Arrays.asList(new Point(12, 2));
+        points.stream().map(p -> p.getX()).forEach(System.out::println);
     }
 
-
-    private static class Point {
-        private static int x;
-        private static int y;
+    private static class Point{
+        private int x;
+        private int y;
 
         private Point(int x, int y) {
             this.x = x;
@@ -33,15 +27,36 @@ public class teht1 {
             this.x = x;
         }
 
-
-        public static Point moveRightBy(int amount) {
-            return new Point(x + amount, y);
+        public Point moveRightBy(int x) {
+            return new Point(this.x + x, this.y);
         }
 
         public static List<Point> moveAllPointsRightBy(List<Point> points, int x) {
             return points.stream()
-                    .map(p -> moveRightBy(x))
+                    .map(p -> p.moveRightBy(x))
                     .collect(toList());
         }
+
+    }
+
+    @Test
+    public void testmoveAllPointsRightBy() {
+        List<Point> points = Arrays.asList(new
+                Point(12,2), new Point(10,5));
+        List<Point> expectedPoints =
+                Arrays.asList(new Point(22,2),
+                        new Point(20,5));
+        List<Point> newPoints = Point.moveAllPointsRightBy(points, 10);
+        List <Integer> expectedPointsX = expectedPoints.stream()
+                .map(p -> p.getX())
+                .collect(toList());
+
+        List <Integer> newPointsX = newPoints.stream()
+                .map(p -> p.getX())
+                .collect(toList());
+
+        System.out.println(expectedPointsX);
+        System.out.println(newPointsX);
+        assertEquals(expectedPointsX,newPointsX);
     }
 }
