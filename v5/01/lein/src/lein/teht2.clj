@@ -1,0 +1,5 @@
+(println (+ 4 (* 2 5)))
+(println (+ 1 2 3 4 5))
+((fn [name] (str "Tervetuloa Tylypahkaan, " name)) "Eero")
+(def names {:name {:first "Urho" :middle "Kaleva" :last "Kekkonen"}})
+(println (get-in names [:name :middle]))
